@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>bgcolour</title>
+    </head>
+    <body>
+        <div id="box" ></div>
+       <br> <button onClick="change()">change</button>
+        <Style>
+            div{
+                background-color: black;
+                width:100px;
+                height:100px;
+                transition: 2s;
+            }
+           .widthmax{
+            width:1270px;
+           }
+        </Style>
+        <script>
+            var box=document.getElementById("box");
+            function change(){
+                box.setAttribute("class","widthmax");
+            
+            }
+        </script>
+    </body>
+</html>

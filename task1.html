@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            repeat input
+        </title>
+    </head>
+    <body>
+        <button onClick="repeat()">click</button>
+        <h1 id="result"></h1>
+    </body>
+    <script>
+        var div=document.getElementById("result")
+        function repeat(){
+           var listitem=document.createElement("h1")
+           listitem.textContent="hello"
+           div.append(listitem)
+        }
+    </script>
+</html>

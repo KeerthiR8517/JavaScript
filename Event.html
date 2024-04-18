@@ -1,0 +1,18 @@
+<html>
+    <head>
+<title>button Event</title>
+    </head>
+    <body>
+        <h1 id="one">Name</h1>
+        <button onClick="button(event)">keerthi</button>
+        <button onClick="button(event)">kavya</button>
+        <button onClick="button(event)">Manju</button>
+    </body>
+    <script>
+        var h1=document.getElementById("one")
+        function button(event){
+            h1.textContent=event.target.textContent
+
+        }
+    </script>
+</html>
